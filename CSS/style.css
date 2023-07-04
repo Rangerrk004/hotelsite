@@ -162,7 +162,7 @@ h3 {
 /* ------------------------------------
      Reviews section start 
 ---------------------------------------*/
-.bg-review{
+.bg-review {
     background-image: url(../Img/serviceicon.png);
     background-image: center;
     background: #E1DFEE24;
@@ -198,7 +198,7 @@ p {
     /* transform: rotate(-90deg); */
 }
 
-.review-section{
+.review-section {
     display: flex;
     align-items: center;
 }
@@ -224,7 +224,7 @@ p {
 }
 
 .team-slide {
-    margin: 13px;
+    margin: 6px;
     max-width: 100%;
     align-items: center;
     border-radius: 10px;
@@ -234,7 +234,7 @@ p {
 
 .team-slide img {
     margin: 12px;
-    width: 380px;
+    width: 335px;
     align-items: center;
     border-radius: 10px;
 }
@@ -404,13 +404,11 @@ footer {
         width: 0.5em;
         height: 0.5em;
     }
-    
+
 }
 
 /* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-   
-}
+@media (max-width: 767.98px) {}
 
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
@@ -424,10 +422,11 @@ footer {
         font-size: 15px;
     }
 
-    .team-slide img{
+    .team-slide img {
         width: 93%;
     }
-    .review-section{
+
+    .review-section {
         flex-direction: column;
     }
 
