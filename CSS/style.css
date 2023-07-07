@@ -128,8 +128,10 @@ h3 {
     box-shadow: 2px 2px 2px 2px #eceaead4;
 }
 
-.category p {
+.category a {
     margin-bottom: 0;
+    text-decoration: none;
+    color: black;
 }
 
 
