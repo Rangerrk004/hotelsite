@@ -379,7 +379,9 @@ footer {
     font-size: 20px;
     color: black;
 }
-
+.site-link ul{
+    padding: 0px;
+}
 
 /*------------------------------
         meadia quries
