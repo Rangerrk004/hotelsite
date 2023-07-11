@@ -8,8 +8,8 @@
 /* ------------------------------------
      custom class for section padding 
 ---------------------------------------*/
-section {
-    padding: 70px 0px;
+.container {
+    padding: 50px 0px;
 }
 
 
@@ -34,6 +34,7 @@ span {
 li a:hover {
     border-bottom: 1px solid rgb(247, 94, 29);
     width: fit-content;
+    transition: all 3s linear;
 }
 
 .cta-btn {
@@ -379,7 +380,8 @@ footer {
     font-size: 20px;
     color: black;
 }
-.site-link ul{
+
+.site-link ul {
     padding: 0px;
 }
 
